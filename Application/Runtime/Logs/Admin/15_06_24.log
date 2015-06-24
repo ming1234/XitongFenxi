@@ -1,0 +1,650 @@
+[ 2015-06-24T13:42:16+08:00 ] ::1 /Xitong/index.php/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-06-24T13:42:16+08:00 ] ::1 /Xitong/index.php/Admin/BackGround/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-06-24T13:42:17+08:00 ] ::1 /Xitong/index.php/Admin/BackGround/backInfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `notes` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `notes` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comments` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `notes` WHERE ( create_time > ('1435124536' - 86400) ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `notes` WHERE ( create_time > ('1435124536' -  604800) ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `notes` WHERE ( create_time > ('1435124536' -  2592000) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( create_time > ('1435124536' - 86400) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( create_time > ('1435124536' -  604800) ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: Last1Monthount_sql D:\xampp\htdocs\Xitong\Application\Admin\Controller\BackGroundController.class.php 第 46 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `books` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comments` WHERE ( create_time > ('1435124536' - 86400) ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comments` WHERE ( create_time > ('1435124536' -  604800) ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comments` WHERE ( create_time > ('1435124536' -  2592000) ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( create_time > ('1435124536' - 86400) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( create_time > ('1435124536' -  604800) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( create_time > ('1435124536' -  2592000) ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `notes` WHERE ( create_time > ('1435124536' - ('1' * 86400)) and create_time < ('1435124536' - (('1'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `notes` WHERE ( create_time > ('1435124536' - ('1' * 86400)) and create_time < ('1435124536' - (('1'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( create_time > ('1435124536' - ('1' * 86400)) and create_time < ('1435124536' - (('1'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( create_time > ('1435124536' - ('1' * 86400)) and create_time < ('1435124536' - (('1'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `notes` WHERE ( create_time > ('1435124536' - ('2' * 86400)) and create_time < ('1435124536' - (('2'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `notes` WHERE ( create_time > ('1435124536' - ('2' * 86400)) and create_time < ('1435124536' - (('2'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( create_time > ('1435124536' - ('2' * 86400)) and create_time < ('1435124536' - (('2'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( create_time > ('1435124536' - ('2' * 86400)) and create_time < ('1435124536' - (('2'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `notes` WHERE ( create_time > ('1435124536' - ('3' * 86400)) and create_time < ('1435124536' - (('3'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `notes` WHERE ( create_time > ('1435124536' - ('3' * 86400)) and create_time < ('1435124536' - (('3'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( create_time > ('1435124536' - ('3' * 86400)) and create_time < ('1435124536' - (('3'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( create_time > ('1435124536' - ('3' * 86400)) and create_time < ('1435124536' - (('3'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `notes` WHERE ( create_time > ('1435124536' - ('4' * 86400)) and create_time < ('1435124536' - (('4'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `notes` WHERE ( create_time > ('1435124536' - ('4' * 86400)) and create_time < ('1435124536' - (('4'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( create_time > ('1435124536' - ('4' * 86400)) and create_time < ('1435124536' - (('4'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( create_time > ('1435124536' - ('4' * 86400)) and create_time < ('1435124536' - (('4'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `notes` WHERE ( create_time > ('1435124536' - ('5' * 86400)) and create_time < ('1435124536' - (('5'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `notes` WHERE ( create_time > ('1435124536' - ('5' * 86400)) and create_time < ('1435124536' - (('5'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( create_time > ('1435124536' - ('5' * 86400)) and create_time < ('1435124536' - (('5'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( create_time > ('1435124536' - ('5' * 86400)) and create_time < ('1435124536' - (('5'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `notes` WHERE ( create_time > ('1435124536' - ('6' * 86400)) and create_time < ('1435124536' - (('6'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `notes` WHERE ( create_time > ('1435124536' - ('6' * 86400)) and create_time < ('1435124536' - (('6'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( create_time > ('1435124536' - ('6' * 86400)) and create_time < ('1435124536' - (('6'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( create_time > ('1435124536' - ('6' * 86400)) and create_time < ('1435124536' - (('6'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `notes` WHERE ( create_time > ('1435124536' - ('7' * 86400)) and create_time < ('1435124536' - (('7'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `notes` WHERE ( create_time > ('1435124536' - ('7' * 86400)) and create_time < ('1435124536' - (('7'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( create_time > ('1435124536' - ('7' * 86400)) and create_time < ('1435124536' - (('7'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( create_time > ('1435124536' - ('7' * 86400)) and create_time < ('1435124536' - (('7'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `notes` WHERE ( create_time > ('1435124536' - ('8' * 86400)) and create_time < ('1435124536' - (('8'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `notes` WHERE ( create_time > ('1435124536' - ('8' * 86400)) and create_time < ('1435124536' - (('8'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( create_time > ('1435124536' - ('8' * 86400)) and create_time < ('1435124536' - (('8'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( create_time > ('1435124536' - ('8' * 86400)) and create_time < ('1435124536' - (('8'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `notes` WHERE ( create_time > ('1435124536' - ('9' * 86400)) and create_time < ('1435124536' - (('9'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `notes` WHERE ( create_time > ('1435124536' - ('9' * 86400)) and create_time < ('1435124536' - (('9'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( create_time > ('1435124536' - ('9' * 86400)) and create_time < ('1435124536' - (('9'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( create_time > ('1435124536' - ('9' * 86400)) and create_time < ('1435124536' - (('9'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `notes` WHERE ( create_time > ('1435124536' - ('10' * 86400)) and create_time < ('1435124536' - (('10'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `notes` WHERE ( create_time > ('1435124536' - ('10' * 86400)) and create_time < ('1435124536' - (('10'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( create_time > ('1435124536' - ('10' * 86400)) and create_time < ('1435124536' - (('10'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( create_time > ('1435124536' - ('10' * 86400)) and create_time < ('1435124536' - (('10'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `notes` WHERE ( create_time > ('1435124536' - ('11' * 86400)) and create_time < ('1435124536' - (('11'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `notes` WHERE ( create_time > ('1435124536' - ('11' * 86400)) and create_time < ('1435124536' - (('11'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( create_time > ('1435124536' - ('11' * 86400)) and create_time < ('1435124536' - (('11'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( create_time > ('1435124536' - ('11' * 86400)) and create_time < ('1435124536' - (('11'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `notes` WHERE ( create_time > ('1435124536' - ('12' * 86400)) and create_time < ('1435124536' - (('12'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `notes` WHERE ( create_time > ('1435124536' - ('12' * 86400)) and create_time < ('1435124536' - (('12'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( create_time > ('1435124536' - ('12' * 86400)) and create_time < ('1435124536' - (('12'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( create_time > ('1435124536' - ('12' * 86400)) and create_time < ('1435124536' - (('12'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `notes` WHERE ( create_time > ('1435124536' - ('13' * 86400)) and create_time < ('1435124536' - (('13'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `notes` WHERE ( create_time > ('1435124536' - ('13' * 86400)) and create_time < ('1435124536' - (('13'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( create_time > ('1435124536' - ('13' * 86400)) and create_time < ('1435124536' - (('13'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( create_time > ('1435124536' - ('13' * 86400)) and create_time < ('1435124536' - (('13'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `notes` WHERE ( create_time > ('1435124536' - ('14' * 86400)) and create_time < ('1435124536' - (('14'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `notes` WHERE ( create_time > ('1435124536' - ('14' * 86400)) and create_time < ('1435124536' - (('14'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( create_time > ('1435124536' - ('14' * 86400)) and create_time < ('1435124536' - (('14'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( create_time > ('1435124536' - ('14' * 86400)) and create_time < ('1435124536' - (('14'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `notes` WHERE ( create_time > ('1435124536' - ('15' * 86400)) and create_time < ('1435124536' - (('15'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `notes` WHERE ( create_time > ('1435124536' - ('15' * 86400)) and create_time < ('1435124536' - (('15'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( create_time > ('1435124536' - ('15' * 86400)) and create_time < ('1435124536' - (('15'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( create_time > ('1435124536' - ('15' * 86400)) and create_time < ('1435124536' - (('15'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [4096] Object of class Admin\Controller\BackGroundController could not be converted to string D:\xampp\htdocs\Xitong\Application\Admin\Controller\BackGroundController.class.php 第 84 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-24T13:43:11+08:00 ] ::1 /Xitong/index.php/Admin/BackGround/manageUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-24T13:43:11+08:00 ] ::1 /Xitong/index.php/Admin/User/manageUser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-24T13:43:11+08:00 ] ::1 /Xitong/index.php/Admin/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [4096] Object of class Admin\Controller\UserController could not be converted to string D:\xampp\htdocs\Xitong\Application\Admin\Controller\UserController.class.php 第 78 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: nowTime D:\xampp\htdocs\Xitong\Application\Runtime\Cache\Admin\dd023d97164b5a749e2edb2ef1228c9f.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-24T13:43:20+08:00 ] ::1 /Xitong/index.php/Admin/User/loginin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-24T13:43:20+08:00 ] ::1 /Xitong/index.php/Admin/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [4096] Object of class Admin\Controller\UserController could not be converted to string D:\xampp\htdocs\Xitong\Application\Admin\Controller\UserController.class.php 第 78 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: nowTime D:\xampp\htdocs\Xitong\Application\Runtime\Cache\Admin\dd023d97164b5a749e2edb2ef1228c9f.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-24T13:43:25+08:00 ] ::1 /Xitong/index.php/Admin/User/loginin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-06-24T13:43:25+08:00 ] ::1 /Xitong/index.php/Admin/BackGround/backInfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `notes` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `notes` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comments` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `notes` WHERE ( create_time > ('1435124605' - 86400) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `notes` WHERE ( create_time > ('1435124605' -  604800) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `notes` WHERE ( create_time > ('1435124605' -  2592000) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( create_time > ('1435124605' - 86400) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( create_time > ('1435124605' -  604800) ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: Last1Monthount_sql D:\xampp\htdocs\Xitong\Application\Admin\Controller\BackGroundController.class.php 第 46 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `books` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comments` WHERE ( create_time > ('1435124605' - 86400) ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comments` WHERE ( create_time > ('1435124605' -  604800) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comments` WHERE ( create_time > ('1435124605' -  2592000) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( create_time > ('1435124605' - 86400) ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( create_time > ('1435124605' -  604800) ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( create_time > ('1435124605' -  2592000) ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `notes` WHERE ( create_time > ('1435124605' - ('1' * 86400)) and create_time < ('1435124605' - (('1'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `notes` WHERE ( create_time > ('1435124605' - ('1' * 86400)) and create_time < ('1435124605' - (('1'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( create_time > ('1435124605' - ('1' * 86400)) and create_time < ('1435124605' - (('1'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( create_time > ('1435124605' - ('1' * 86400)) and create_time < ('1435124605' - (('1'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `notes` WHERE ( create_time > ('1435124605' - ('2' * 86400)) and create_time < ('1435124605' - (('2'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `notes` WHERE ( create_time > ('1435124605' - ('2' * 86400)) and create_time < ('1435124605' - (('2'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( create_time > ('1435124605' - ('2' * 86400)) and create_time < ('1435124605' - (('2'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( create_time > ('1435124605' - ('2' * 86400)) and create_time < ('1435124605' - (('2'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `notes` WHERE ( create_time > ('1435124605' - ('3' * 86400)) and create_time < ('1435124605' - (('3'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `notes` WHERE ( create_time > ('1435124605' - ('3' * 86400)) and create_time < ('1435124605' - (('3'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( create_time > ('1435124605' - ('3' * 86400)) and create_time < ('1435124605' - (('3'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( create_time > ('1435124605' - ('3' * 86400)) and create_time < ('1435124605' - (('3'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `notes` WHERE ( create_time > ('1435124605' - ('4' * 86400)) and create_time < ('1435124605' - (('4'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `notes` WHERE ( create_time > ('1435124605' - ('4' * 86400)) and create_time < ('1435124605' - (('4'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( create_time > ('1435124605' - ('4' * 86400)) and create_time < ('1435124605' - (('4'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( create_time > ('1435124605' - ('4' * 86400)) and create_time < ('1435124605' - (('4'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `notes` WHERE ( create_time > ('1435124605' - ('5' * 86400)) and create_time < ('1435124605' - (('5'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `notes` WHERE ( create_time > ('1435124605' - ('5' * 86400)) and create_time < ('1435124605' - (('5'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( create_time > ('1435124605' - ('5' * 86400)) and create_time < ('1435124605' - (('5'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( create_time > ('1435124605' - ('5' * 86400)) and create_time < ('1435124605' - (('5'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `notes` WHERE ( create_time > ('1435124605' - ('6' * 86400)) and create_time < ('1435124605' - (('6'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `notes` WHERE ( create_time > ('1435124605' - ('6' * 86400)) and create_time < ('1435124605' - (('6'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( create_time > ('1435124605' - ('6' * 86400)) and create_time < ('1435124605' - (('6'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( create_time > ('1435124605' - ('6' * 86400)) and create_time < ('1435124605' - (('6'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `notes` WHERE ( create_time > ('1435124605' - ('7' * 86400)) and create_time < ('1435124605' - (('7'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `notes` WHERE ( create_time > ('1435124605' - ('7' * 86400)) and create_time < ('1435124605' - (('7'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( create_time > ('1435124605' - ('7' * 86400)) and create_time < ('1435124605' - (('7'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( create_time > ('1435124605' - ('7' * 86400)) and create_time < ('1435124605' - (('7'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `notes` WHERE ( create_time > ('1435124605' - ('8' * 86400)) and create_time < ('1435124605' - (('8'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `notes` WHERE ( create_time > ('1435124605' - ('8' * 86400)) and create_time < ('1435124605' - (('8'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( create_time > ('1435124605' - ('8' * 86400)) and create_time < ('1435124605' - (('8'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( create_time > ('1435124605' - ('8' * 86400)) and create_time < ('1435124605' - (('8'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `notes` WHERE ( create_time > ('1435124605' - ('9' * 86400)) and create_time < ('1435124605' - (('9'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `notes` WHERE ( create_time > ('1435124605' - ('9' * 86400)) and create_time < ('1435124605' - (('9'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( create_time > ('1435124605' - ('9' * 86400)) and create_time < ('1435124605' - (('9'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( create_time > ('1435124605' - ('9' * 86400)) and create_time < ('1435124605' - (('9'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `notes` WHERE ( create_time > ('1435124605' - ('10' * 86400)) and create_time < ('1435124605' - (('10'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `notes` WHERE ( create_time > ('1435124605' - ('10' * 86400)) and create_time < ('1435124605' - (('10'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( create_time > ('1435124605' - ('10' * 86400)) and create_time < ('1435124605' - (('10'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( create_time > ('1435124605' - ('10' * 86400)) and create_time < ('1435124605' - (('10'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `notes` WHERE ( create_time > ('1435124605' - ('11' * 86400)) and create_time < ('1435124605' - (('11'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `notes` WHERE ( create_time > ('1435124605' - ('11' * 86400)) and create_time < ('1435124605' - (('11'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( create_time > ('1435124605' - ('11' * 86400)) and create_time < ('1435124605' - (('11'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( create_time > ('1435124605' - ('11' * 86400)) and create_time < ('1435124605' - (('11'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `notes` WHERE ( create_time > ('1435124605' - ('12' * 86400)) and create_time < ('1435124605' - (('12'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `notes` WHERE ( create_time > ('1435124605' - ('12' * 86400)) and create_time < ('1435124605' - (('12'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( create_time > ('1435124605' - ('12' * 86400)) and create_time < ('1435124605' - (('12'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( create_time > ('1435124605' - ('12' * 86400)) and create_time < ('1435124605' - (('12'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `notes` WHERE ( create_time > ('1435124605' - ('13' * 86400)) and create_time < ('1435124605' - (('13'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `notes` WHERE ( create_time > ('1435124605' - ('13' * 86400)) and create_time < ('1435124605' - (('13'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( create_time > ('1435124605' - ('13' * 86400)) and create_time < ('1435124605' - (('13'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( create_time > ('1435124605' - ('13' * 86400)) and create_time < ('1435124605' - (('13'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `notes` WHERE ( create_time > ('1435124605' - ('14' * 86400)) and create_time < ('1435124605' - (('14'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `notes` WHERE ( create_time > ('1435124605' - ('14' * 86400)) and create_time < ('1435124605' - (('14'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( create_time > ('1435124605' - ('14' * 86400)) and create_time < ('1435124605' - (('14'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( create_time > ('1435124605' - ('14' * 86400)) and create_time < ('1435124605' - (('14'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `notes` WHERE ( create_time > ('1435124605' - ('15' * 86400)) and create_time < ('1435124605' - (('15'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `notes` WHERE ( create_time > ('1435124605' - ('15' * 86400)) and create_time < ('1435124605' - (('15'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( create_time > ('1435124605' - ('15' * 86400)) and create_time < ('1435124605' - (('15'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( create_time > ('1435124605' - ('15' * 86400)) and create_time < ('1435124605' - (('15'-1) * 86400)) ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [4096] Object of class Admin\Controller\BackGroundController could not be converted to string D:\xampp\htdocs\Xitong\Application\Admin\Controller\BackGroundController.class.php 第 84 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-24T13:43:31+08:00 ] ::1 /Xitong/index.php/Admin/BackGround/manageUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-06-24T13:43:31+08:00 ] ::1 /Xitong/index.php/Admin/User/manageUser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0050s ]
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' D:\xampp\htdocs\Xitong\Application\Admin\Controller\UserController.class.php 第 22 行.
+SQL: SELECT * FROM `users` ORDER BY create_time  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [4096] Object of class Admin\Controller\UserController could not be converted to string D:\xampp\htdocs\Xitong\Application\Admin\Controller\UserController.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: nowTime D:\xampp\htdocs\Xitong\Application\Runtime\Cache\Admin\8308c9f2b3055a1a632073062e1a3902.php 第 21 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' D:\xampp\htdocs\Xitong\Application\Runtime\Cache\Admin\8308c9f2b3055a1a632073062e1a3902.php 第 52 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' D:\xampp\htdocs\Xitong\Application\Runtime\Cache\Admin\8308c9f2b3055a1a632073062e1a3902.php 第 53 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' D:\xampp\htdocs\Xitong\Application\Runtime\Cache\Admin\8308c9f2b3055a1a632073062e1a3902.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\Xitong\Application\Runtime\Cache\Admin\8308c9f2b3055a1a632073062e1a3902.php 第 55 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' D:\xampp\htdocs\Xitong\Application\Runtime\Cache\Admin\8308c9f2b3055a1a632073062e1a3902.php 第 55 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' D:\xampp\htdocs\Xitong\Application\Runtime\Cache\Admin\8308c9f2b3055a1a632073062e1a3902.php 第 52 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' D:\xampp\htdocs\Xitong\Application\Runtime\Cache\Admin\8308c9f2b3055a1a632073062e1a3902.php 第 53 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' D:\xampp\htdocs\Xitong\Application\Runtime\Cache\Admin\8308c9f2b3055a1a632073062e1a3902.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\Xitong\Application\Runtime\Cache\Admin\8308c9f2b3055a1a632073062e1a3902.php 第 55 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' D:\xampp\htdocs\Xitong\Application\Runtime\Cache\Admin\8308c9f2b3055a1a632073062e1a3902.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-06-24T13:43:49+08:00 ] ::1 /Xitong/index.php/Admin/User/deleteUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `users` WHERE `id` = '3' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `notes` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `bookzan` [ RunTime:0.0060s ]
+SQL: DELETE FROM `comments` WHERE ( username = '1' ) [ RunTime:0.0010s ]
+SQL: DELETE FROM `bookzan` WHERE ( username = '1' ) [ RunTime:0.0010s ]
+SQL: DELETE FROM `notes` WHERE ( username = '1' ) [ RunTime:0.0010s ]
+SQL: DELETE FROM `users` WHERE `id` = '3' [ RunTime:0.0010s ]
+
+[ 2015-06-24T13:43:49+08:00 ] ::1 /Xitong/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-24T13:43:49+08:00 ] ::1 /Xitong/index.php/Admin/User/manageUser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0060s ]
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' D:\xampp\htdocs\Xitong\Application\Admin\Controller\UserController.class.php 第 22 行.
+SQL: SELECT * FROM `users` ORDER BY create_time  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [4096] Object of class Admin\Controller\UserController could not be converted to string D:\xampp\htdocs\Xitong\Application\Admin\Controller\UserController.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: nowTime D:\xampp\htdocs\Xitong\Application\Runtime\Cache\Admin\8308c9f2b3055a1a632073062e1a3902.php 第 21 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' D:\xampp\htdocs\Xitong\Application\Runtime\Cache\Admin\8308c9f2b3055a1a632073062e1a3902.php 第 52 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' D:\xampp\htdocs\Xitong\Application\Runtime\Cache\Admin\8308c9f2b3055a1a632073062e1a3902.php 第 53 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' D:\xampp\htdocs\Xitong\Application\Runtime\Cache\Admin\8308c9f2b3055a1a632073062e1a3902.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\Xitong\Application\Runtime\Cache\Admin\8308c9f2b3055a1a632073062e1a3902.php 第 55 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' D:\xampp\htdocs\Xitong\Application\Runtime\Cache\Admin\8308c9f2b3055a1a632073062e1a3902.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-24T13:43:49+08:00 ] ::1 /Xitong/index.php/Admin/User/manageUser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0060s ]
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' D:\xampp\htdocs\Xitong\Application\Admin\Controller\UserController.class.php 第 22 行.
+SQL: SELECT * FROM `users` ORDER BY create_time  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [4096] Object of class Admin\Controller\UserController could not be converted to string D:\xampp\htdocs\Xitong\Application\Admin\Controller\UserController.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: nowTime D:\xampp\htdocs\Xitong\Application\Runtime\Cache\Admin\8308c9f2b3055a1a632073062e1a3902.php 第 21 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' D:\xampp\htdocs\Xitong\Application\Runtime\Cache\Admin\8308c9f2b3055a1a632073062e1a3902.php 第 52 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' D:\xampp\htdocs\Xitong\Application\Runtime\Cache\Admin\8308c9f2b3055a1a632073062e1a3902.php 第 53 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' D:\xampp\htdocs\Xitong\Application\Runtime\Cache\Admin\8308c9f2b3055a1a632073062e1a3902.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\Xitong\Application\Runtime\Cache\Admin\8308c9f2b3055a1a632073062e1a3902.php 第 55 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' D:\xampp\htdocs\Xitong\Application\Runtime\Cache\Admin\8308c9f2b3055a1a632073062e1a3902.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-24T13:43:52+08:00 ] ::1 /Xitong/index.php/Admin/User/manageBook
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-06-24T13:43:52+08:00 ] ::1 /Xitong/index.php/Admin/Books/allBooks.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `books` ORDER BY id  [ RunTime:0.0010s ]
+NOTIC: [4096] Object of class Admin\Controller\BooksController could not be converted to string D:\xampp\htdocs\Xitong\Application\Admin\Controller\BooksController.class.php 第 139 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: nowTime D:\xampp\htdocs\Xitong\Application\Runtime\Cache\Admin\7a6fa30d09ab16762e3122784189b54f.php 第 21 行.
+NOTIC: [8] Use of undefined constant picture - assumed 'picture' D:\xampp\htdocs\Xitong\Application\Runtime\Cache\Admin\7a6fa30d09ab16762e3122784189b54f.php 第 60 行.
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' D:\xampp\htdocs\Xitong\Application\Runtime\Cache\Admin\7a6fa30d09ab16762e3122784189b54f.php 第 62 行.
+NOTIC: [8] Use of undefined constant author - assumed 'author' D:\xampp\htdocs\Xitong\Application\Runtime\Cache\Admin\7a6fa30d09ab16762e3122784189b54f.php 第 63 行.
+NOTIC: [8] Use of undefined constant press - assumed 'press' D:\xampp\htdocs\Xitong\Application\Runtime\Cache\Admin\7a6fa30d09ab16762e3122784189b54f.php 第 64 行.
+NOTIC: [8] Use of undefined constant isbn - assumed 'isbn' D:\xampp\htdocs\Xitong\Application\Runtime\Cache\Admin\7a6fa30d09ab16762e3122784189b54f.php 第 65 行.
+NOTIC: [8] Use of undefined constant summary - assumed 'summary' D:\xampp\htdocs\Xitong\Application\Runtime\Cache\Admin\7a6fa30d09ab16762e3122784189b54f.php 第 66 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\Xitong\Application\Runtime\Cache\Admin\7a6fa30d09ab16762e3122784189b54f.php 第 68 行.
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' D:\xampp\htdocs\Xitong\Application\Runtime\Cache\Admin\7a6fa30d09ab16762e3122784189b54f.php 第 68 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\Xitong\Application\Runtime\Cache\Admin\7a6fa30d09ab16762e3122784189b54f.php 第 70 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\Xitong\Application\Runtime\Cache\Admin\7a6fa30d09ab16762e3122784189b54f.php 第 74 行.
+NOTIC: [8] Use of undefined constant picture - assumed 'picture' D:\xampp\htdocs\Xitong\Application\Runtime\Cache\Admin\7a6fa30d09ab16762e3122784189b54f.php 第 60 行.
+NOTIC: [8] Use of undefined constant picture - assumed 'picture' D:\xampp\htdocs\Xitong\Application\Runtime\Cache\Admin\7a6fa30d09ab16762e3122784189b54f.php 第 60 行.
+NOTIC: [8] Use of undefined constant picture - assumed 'picture' D:\xampp\htdocs\Xitong\Application\Runtime\Cache\Admin\7a6fa30d09ab16762e3122784189b54f.php 第 60 行.
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' D:\xampp\htdocs\Xitong\Application\Runtime\Cache\Admin\7a6fa30d09ab16762e3122784189b54f.php 第 62 行.
+NOTIC: [8] Use of undefined constant author - assumed 'author' D:\xampp\htdocs\Xitong\Application\Runtime\Cache\Admin\7a6fa30d09ab16762e3122784189b54f.php 第 63 行.
+NOTIC: [8] Use of undefined constant press - assumed 'press' D:\xampp\htdocs\Xitong\Application\Runtime\Cache\Admin\7a6fa30d09ab16762e3122784189b54f.php 第 64 行.
+NOTIC: [8] Use of undefined constant isbn - assumed 'isbn' D:\xampp\htdocs\Xitong\Application\Runtime\Cache\Admin\7a6fa30d09ab16762e3122784189b54f.php 第 65 行.
+NOTIC: [8] Use of undefined constant summary - assumed 'summary' D:\xampp\htdocs\Xitong\Application\Runtime\Cache\Admin\7a6fa30d09ab16762e3122784189b54f.php 第 66 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\Xitong\Application\Runtime\Cache\Admin\7a6fa30d09ab16762e3122784189b54f.php 第 68 行.
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' D:\xampp\htdocs\Xitong\Application\Runtime\Cache\Admin\7a6fa30d09ab16762e3122784189b54f.php 第 68 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\Xitong\Application\Runtime\Cache\Admin\7a6fa30d09ab16762e3122784189b54f.php 第 70 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\Xitong\Application\Runtime\Cache\Admin\7a6fa30d09ab16762e3122784189b54f.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-06-24T13:44:14+08:00 ] ::1 /Xitong/index.php/Admin/Books/addBook
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [4096] Object of class Admin\Controller\BooksController could not be converted to string D:\xampp\htdocs\Xitong\Application\Admin\Controller\BooksController.class.php 第 63 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: nowTime D:\xampp\htdocs\Xitong\Application\Runtime\Cache\Admin\9c615dae9c2244eab5f8f66bbd8d5260.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-06-24T13:44:19+08:00 ] ::1 /Xitong/index.php/Admin/Books/lookComments
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [4096] Object of class Admin\Controller\BooksController could not be converted to string D:\xampp\htdocs\Xitong\Application\Admin\Controller\BooksController.class.php 第 149 行.
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `books` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `comments` WHERE ( bookid = '1' ) ORDER BY create_time desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: nowTime D:\xampp\htdocs\Xitong\Application\Runtime\Cache\Admin\2a32e13a15cc482b03223ed75f44b771.php 第 21 行.
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' D:\xampp\htdocs\Xitong\Application\Runtime\Cache\Admin\2a32e13a15cc482b03223ed75f44b771.php 第 48 行.
+NOTIC: [8] Use of undefined constant picture - assumed 'picture' D:\xampp\htdocs\Xitong\Application\Runtime\Cache\Admin\2a32e13a15cc482b03223ed75f44b771.php 第 49 行.
+NOTIC: [8] Use of undefined constant author - assumed 'author' D:\xampp\htdocs\Xitong\Application\Runtime\Cache\Admin\2a32e13a15cc482b03223ed75f44b771.php 第 51 行.
+NOTIC: [8] Use of undefined constant press - assumed 'press' D:\xampp\htdocs\Xitong\Application\Runtime\Cache\Admin\2a32e13a15cc482b03223ed75f44b771.php 第 52 行.
+NOTIC: [8] Use of undefined constant isbn - assumed 'isbn' D:\xampp\htdocs\Xitong\Application\Runtime\Cache\Admin\2a32e13a15cc482b03223ed75f44b771.php 第 53 行.
+NOTIC: [8] Use of undefined constant summary - assumed 'summary' D:\xampp\htdocs\Xitong\Application\Runtime\Cache\Admin\2a32e13a15cc482b03223ed75f44b771.php 第 54 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' D:\xampp\htdocs\Xitong\Application\Runtime\Cache\Admin\2a32e13a15cc482b03223ed75f44b771.php 第 75 行.
+NOTIC: [8] Use of undefined constant comment - assumed 'comment' D:\xampp\htdocs\Xitong\Application\Runtime\Cache\Admin\2a32e13a15cc482b03223ed75f44b771.php 第 76 行.
+NOTIC: [8] Use of undefined constant create_time - assumed 'create_time' D:\xampp\htdocs\Xitong\Application\Runtime\Cache\Admin\2a32e13a15cc482b03223ed75f44b771.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\Xitong\Application\Runtime\Cache\Admin\2a32e13a15cc482b03223ed75f44b771.php 第 78 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2015-06-24T13:44:27+08:00 ] ::1 /Xitong/index.php/Admin/Books/lookNotes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `books` WHERE `id` = '2' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `notes` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `notes` WHERE ( bookid = '2' ) ORDER BY create_time desc  [ RunTime:0.0020s ]
+NOTIC: [4096] Object of class Admin\Controller\BooksController could not be converted to string D:\xampp\htdocs\Xitong\Application\Admin\Controller\BooksController.class.php 第 191 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: nowTime D:\xampp\htdocs\Xitong\Application\Runtime\Cache\Admin\05a19499aea0eb0361aabdc9a38174f4.php 第 21 行.
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' D:\xampp\htdocs\Xitong\Application\Runtime\Cache\Admin\05a19499aea0eb0361aabdc9a38174f4.php 第 48 行.
+NOTIC: [8] Use of undefined constant picture - assumed 'picture' D:\xampp\htdocs\Xitong\Application\Runtime\Cache\Admin\05a19499aea0eb0361aabdc9a38174f4.php 第 49 行.
+NOTIC: [8] Use of undefined constant picture - assumed 'picture' D:\xampp\htdocs\Xitong\Application\Runtime\Cache\Admin\05a19499aea0eb0361aabdc9a38174f4.php 第 49 行.
+NOTIC: [8] Use of undefined constant picture - assumed 'picture' D:\xampp\htdocs\Xitong\Application\Runtime\Cache\Admin\05a19499aea0eb0361aabdc9a38174f4.php 第 49 行.
+NOTIC: [8] Use of undefined constant author - assumed 'author' D:\xampp\htdocs\Xitong\Application\Runtime\Cache\Admin\05a19499aea0eb0361aabdc9a38174f4.php 第 51 行.
+NOTIC: [8] Use of undefined constant press - assumed 'press' D:\xampp\htdocs\Xitong\Application\Runtime\Cache\Admin\05a19499aea0eb0361aabdc9a38174f4.php 第 52 行.
+NOTIC: [8] Use of undefined constant isbn - assumed 'isbn' D:\xampp\htdocs\Xitong\Application\Runtime\Cache\Admin\05a19499aea0eb0361aabdc9a38174f4.php 第 53 行.
+NOTIC: [8] Use of undefined constant summary - assumed 'summary' D:\xampp\htdocs\Xitong\Application\Runtime\Cache\Admin\05a19499aea0eb0361aabdc9a38174f4.php 第 54 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-24T13:44:33+08:00 ] ::1 /Xitong/index.php/Admin/Books/manageUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-06-24T13:44:33+08:00 ] ::1 /Xitong/index.php/Admin/User/manageUser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0050s ]
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' D:\xampp\htdocs\Xitong\Application\Admin\Controller\UserController.class.php 第 22 行.
+SQL: SELECT * FROM `users` ORDER BY create_time  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [4096] Object of class Admin\Controller\UserController could not be converted to string D:\xampp\htdocs\Xitong\Application\Admin\Controller\UserController.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: nowTime D:\xampp\htdocs\Xitong\Application\Runtime\Cache\Admin\8308c9f2b3055a1a632073062e1a3902.php 第 21 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' D:\xampp\htdocs\Xitong\Application\Runtime\Cache\Admin\8308c9f2b3055a1a632073062e1a3902.php 第 52 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' D:\xampp\htdocs\Xitong\Application\Runtime\Cache\Admin\8308c9f2b3055a1a632073062e1a3902.php 第 53 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' D:\xampp\htdocs\Xitong\Application\Runtime\Cache\Admin\8308c9f2b3055a1a632073062e1a3902.php 第 54 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\Xitong\Application\Runtime\Cache\Admin\8308c9f2b3055a1a632073062e1a3902.php 第 55 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' D:\xampp\htdocs\Xitong\Application\Runtime\Cache\Admin\8308c9f2b3055a1a632073062e1a3902.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-24T13:44:36+08:00 ] ::1 /Xitong/index.php/Admin/User/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-24T13:44:36+08:00 ] ::1 /Xitong/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-24T13:44:36+08:00 ] ::1 /Xitong/index.php/Admin/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [4096] Object of class Admin\Controller\UserController could not be converted to string D:\xampp\htdocs\Xitong\Application\Admin\Controller\UserController.class.php 第 78 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: nowTime D:\xampp\htdocs\Xitong\Application\Runtime\Cache\Admin\dd023d97164b5a749e2edb2ef1228c9f.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
